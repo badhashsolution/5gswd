@@ -107,7 +107,7 @@ ROOT_URLCONF = 'microblog.urls'
 WSGI_APPLICATION = 'microblog.wsgi.application'
 
 TEMPLATE_DIRS = (
-    root("template"),
+    root("templates"),
 )
 
 DJANGO_APPS = (
